@@ -1,0 +1,38 @@
+=====================================================================
+ COMO FUNCIONA O DESCONTO DE 50% PARA MEMBROS VIP
+=====================================================================
+
+A IDEIA
+Quem comprou o Acesso VIP ganha 50% de desconto nos PRODUTOS NOVOS
+(os que você lançar daqui para frente), tanto no grupo do Telegram
+quanto na vitrine Link MR Store. O desconto vale para o e-mail usado
+na compra do VIP.
+
+---------------------------------------------------------------------
+VERSÃO SIMPLES (começar já)
+---------------------------------------------------------------------
+1. Na Cakto, crie um cupom de desconto de 50%, por exemplo: VIP50
+   (Procure por "Cupons" no painel. Se não achar, me manda print.)
+   Aplique o cupom só nos produtos NOVOS, não nos antigos nem no próprio
+   Acesso VIP.
+2. Poste o cupom SÓ dentro do grupo VIP, na aba "Descontos VIP", e fixe.
+   Ele nunca aparece nas páginas públicas.
+3. Guarde uma planilha simples com os membros VIP:
+   Nome | E-mail da compra VIP | Usuário do Telegram | Data
+   (Você preenche quando aprova a entrada no grupo.)
+4. De vez em quando, olhe as vendas que usaram o cupom VIP50 na Cakto.
+   Se o e-mail da venda não estiver na planilha, o cupom vazou.
+   Aí é só trocar o código (ex.: VIP50B) e atualizar no grupo.
+
+Dica: troque o código do cupom a cada lançamento grande. Quem é VIP
+sempre vê o código novo no grupo; quem pegou por fora perde.
+
+---------------------------------------------------------------------
+VERSÃO AUTOMÁTICA (depois, com o Claude Code)
+---------------------------------------------------------------------
+- A Cakto avisa o bot a cada compra do VIP (webhook) e o bot salva
+  o e-mail numa lista.
+- Quando alguém usar o cupom num produto novo, o bot confere se o
+  e-mail está na lista de VIPs e te avisa se não estiver.
+- Precisa de um pequeno servidor online. É um projeto para quando
+  as vendas começarem.

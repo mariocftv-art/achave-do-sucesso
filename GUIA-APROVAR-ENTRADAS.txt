@@ -1,0 +1,22 @@
+=====================================================================
+ COMO APROVAR QUEM COMPROU (e barrar quem não comprou)
+=====================================================================
+
+1. O cliente paga (Pix, crédito ou débito) e recebe a página de acesso.
+2. Ele toca em "Abrir o grupo VIP" e depois em "Pedir para entrar".
+3. Ele manda o e-mail da compra no seu WhatsApp (botão pronto na página).
+4. No Telegram, no topo do grupo aparece o aviso de pedidos de entrada.
+   Toque nele para ver quem pediu.
+5. Confira na Cakto (Vendas) se o e-mail tem compra do Acesso VIP aprovada.
+   - Tem compra: toque em "Aprovar" e anote na planilha de membros VIP.
+   - Não tem: toque em "Recusar".
+
+REGRAS DE OURO
+- Só use o link com aprovação. Desative qualquer link antigo sem aprovação.
+- Nunca poste o link do grupo em lugar público; ele fica só na página de acesso.
+- Se alguém pedir reembolso na Cakto, remova a pessoa do grupo.
+
+VERSÃO AUTOMÁTICA (futuro)
+O bot pode fazer a conferência: quando alguém pede para entrar, ele
+pergunta o e-mail no privado, confere com as compras da Cakto e aprova
+sozinho, até de madrugada.

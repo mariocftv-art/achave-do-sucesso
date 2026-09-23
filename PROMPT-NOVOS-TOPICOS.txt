@@ -1,0 +1,29 @@
+Cole este texto no Claude Code (pasta Documents\LinkMR-Telegram)
+DEPOIS que ele terminar o que está fazendo:
+---------------------------------------------------------------------
+
+Quero adicionar novos tópicos ao grupo, usando o mesmo setup_grupo.py
+(sem duplicar os que já existem: Cursos, Livros Digitais, Drive, Stream).
+
+Regra do grupo: loja de produtos digitais legítimos, só material com
+direito de uso ou revenda. Nenhum conteúdo adulto, pirata, conta
+compartilhada, IPTV ou app modificado.
+
+Novos tópicos, cada um com cor diferente, boas-vindas curta em português
+com emojis no estilo Link MR Store, fixada:
+   📊 Planilhas
+   🛒 Páginas de Vendas
+   🎨 Artes e Templates
+   🛍️ TikTok Shop
+   🧡 Afiliados Shopee
+   💼 Renda Extra
+   📢 Avisos e Novidades
+   🎁 Descontos VIP
+   🆘 Suporte
+
+Feche todos para só administradores postarem, EXCETO o 🆘 Suporte,
+que fica aberto para os membros tirarem dúvidas.
+Na boas-vindas do 🎁 Descontos VIP, explique que o cupom de 50% vale
+para produtos novos, com o mesmo e-mail da compra do Acesso VIP
+(ainda não coloque o código do cupom).
+Atualize o topicos.json no final e me mostre a tabela.
