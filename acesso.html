@@ -36,10 +36,22 @@
 
   header{text-align:center;padding:48px 0 36px}
   header img{width:130px;margin:0 auto 16px;display:block}
-  .ouro{font-family:"Cinzel",Georgia,serif;font-weight:900;
-    background:linear-gradient(180deg,var(--ouro-claro),var(--ouro) 48%,var(--ouro-escuro));
-    -webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 2px 0 #3a2506)}
-  h1{font-size:clamp(30px,5.5vw,46px);line-height:1.1}
+  /* títulos em ouro 3D, no estilo da logo */
+  .ouro{
+    position:relative;font-family:"Cinzel",Georgia,serif;font-weight:900;letter-spacing:.01em;color:#B8832A;
+    text-shadow:
+      0 .012em 0 #9a6a1a,0 .024em 0 #8a5d15,0 .036em 0 #7a5011,0 .048em 0 #6a440d,
+      0 .060em 0 #5a3909,0 .072em 0 #4a2e06,0 .084em 0 #3a2404,
+      0 .12em .10em rgba(0,0,0,.85),0 .18em .35em rgba(0,0,0,.7),0 0 .6em rgba(232,180,70,.28);
+  }
+  .ouro::after{
+    content:attr(data-text);position:absolute;inset:0;pointer-events:none;text-shadow:none;
+    background:linear-gradient(180deg,#FFF9DF 0%,#FBE39A 16%,#EBC25A 34%,#B7801F 49%,#8E5E12 53%,#D9AB45 66%,#FFE8A0 82%,#D29B35 100%);
+    background-size:100% 1lh;background-repeat:repeat-y;
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    -webkit-text-stroke:.012em rgba(255,246,206,.55);
+  }
+  h1{font-size:clamp(34px,6vw,54px);line-height:1.12}
   header p{margin-top:12px;color:var(--texto-2)}
 
   ol{list-style:none;counter-reset:p}
@@ -60,7 +72,7 @@
   .aviso{margin-top:14px;font-size:15px;color:var(--texto-2);border-left:2px solid var(--vermelho);padding-left:12px}
 
   .extra{border-top:1px solid var(--linha);padding:32px 0 20px}
-  .extra h3{font-size:19px}
+  .extra h3{font-size:24px}
   .extra p{margin-top:6px;color:var(--texto-2)}
   .links{display:flex;gap:12px;flex-wrap:wrap}
 
@@ -131,6 +143,9 @@
     var url = CONFIG[a.getAttribute("data-link")];
     if(url){ a.href = url; }
   });
+</script>
+<script>
+  document.querySelectorAll(".ouro").forEach(function(e){ e.setAttribute("data-text", e.textContent); });
 </script>
 </body>
 </html>
